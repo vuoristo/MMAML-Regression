@@ -1,0 +1,10 @@
+name: mmaml_regression
+channels:
+- pytorch
+dependencies:
+- python=3.7
+- pytorch=0.4.1
+- numpy
+- pip
+- pip:
+  - tensorboardX
